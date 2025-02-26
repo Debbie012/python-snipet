@@ -23,6 +23,31 @@ x = 6
 y = "John"
 print(type(x))
 print(type(y))
+x  = "John"
+print(x)
+#Double quotes is the same as single quotes
+x = 'John'
+print(x)
+a = 4
+A = "Sally"
+print(a)
+print(A)
+#A will not overwrite a.
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+
+
 
 
 
