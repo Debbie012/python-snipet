@@ -45,8 +45,39 @@ print(_my_var)
 print(myVar)
 print(MYVAR)
 print(myvar2)
-
-
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+x = y = z = "Orange"
+print(x)
+print(y)
+print(x)
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+#The Python print() function is often used to output variables.
+#Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".
+x = "Python is awesome"
+print(x)
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+#For numbers, the + character works as a mathematical operator:
+x = 5
+y = 10
+print(x + y)
+#The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+x = 5
+y = "John"
+print(x, y)
 
 
 
