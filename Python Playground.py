@@ -93,5 +93,5 @@ def myfunc():
   x = "fantastic"
 myfunc()
 print("Python is  " +x)
-
+print("Python is  " +y)
 
